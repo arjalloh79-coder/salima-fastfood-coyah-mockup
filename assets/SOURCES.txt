@@ -1,0 +1,6 @@
+Placeholders, not client photos.
+hero/grill: unsplash photo-1555939594-58d7cb561ad1 and photo-1529193591184-b1d58069ecdd
+rice: photo-1516684669134-de6f7c473a2a
+plate: photo-1604329760661-e71dc83f8f26
+drinks: photo-1546173159-315724a31696
+ambiance: photo-1517248135467-4c7edcad34c4

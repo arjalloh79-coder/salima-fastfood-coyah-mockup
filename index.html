@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Restaurant Salima Fast Food — Coyah</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>body{font-family:Inter,system-ui,sans-serif}</style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+<div class="bg-amber-50 text-amber-950 text-center text-xs sm:text-sm py-2 px-3">Maquette offerte par Al-Falah Marketing — rien n’est en ligne sous votre nom.</div>
+<header class="sticky top-0 z-40 bg-white/90 backdrop-blur border-b border-slate-200">
+<div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+<a class="font-semibold" href="#top">Salima Fast Food</a>
+<div class="flex gap-2 items-center">
+<button id="lang" class="text-xs border rounded-full px-3 py-1" onclick="toggleLang()">EN</button>
+<a class="hidden sm:inline rounded-full bg-teal-700 text-white text-sm px-4 py-2" href="https://wa.me/224623999800?text=Bonjour%20Salima%20Fast%20Food%2C%20je%20souhaite%20le%20menu%20du%20jour.">WhatsApp</a>
+</div></div></header>
+<section id="top" class="relative min-h-[78vh] flex items-end">
+<img src="assets/hero.jpg" alt="Grill" class="absolute inset-0 w-full h-full object-cover" onerror="this.src='https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1800&q=80'">
+<div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-transparent"></div>
+<div class="relative max-w-6xl mx-auto px-4 pb-16 pt-28 text-white">
+<p class="text-amber-200 text-sm">Gomboyah Mosquée, Coyah, Guinée</p>
+<h1 class="mt-2 text-4xl sm:text-6xl font-semibold max-w-3xl" data-en="Fast plates, late hours, Gomboyah." data-fr="Plats rapides, horaires tardifs, Gomboyah.">Plats rapides, horaires tardifs, Gomboyah.</h1>
+<p class="mt-4 max-w-xl" data-en="Fast plates near Gomboyah Mosque. Open daily 08:00 to midnight. Ask the menu on WhatsApp." data-fr="Plats rapides près de la mosquée de Gomboyah. Ouvert tous les jours de 08h à minuit. Menu sur WhatsApp.">Plats rapides près de la mosquée de Gomboyah. Ouvert tous les jours de 08h à minuit. Menu sur WhatsApp.</p>
+<div class="mt-6 flex flex-wrap gap-3">
+<a class="rounded-full bg-teal-600 px-5 py-3" href="https://wa.me/224623999800?text=Bonjour%20Salima%20Fast%20Food%2C%20je%20souhaite%20le%20menu%20du%20jour." data-en="Message Salima" data-fr="Écrire à Salima">Écrire à Salima</a>
+<a class="rounded-full border border-white/40 px-5 py-3" href="tel:+224623999800">+224 623 99 98 00</a>
+</div></div></section>
+<div class="bg-slate-900 text-slate-100 text-sm"><div class="max-w-6xl mx-auto px-4 py-3 flex flex-col sm:flex-row gap-2 sm:justify-between"><span>Laurel, MD · +1 240 280 6137</span><span>Coyah · Orange Money / GNF · +224 611 351 302</span><span>Freetown · SLE</span></div></div>
+<section id="menu" class="max-w-6xl mx-auto px-4 py-14">
+<h2 class="text-3xl font-semibold" data-en="What guests come for" data-fr="Ce que l’on vient chercher">Ce que l’on vient chercher</h2>
+<p class="mt-2 text-slate-600" data-en="Prices on request." data-fr="Prix du jour sur demande.">Prix du jour sur demande.</p>
+<div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+<article class="bg-white rounded-2xl overflow-hidden shadow-sm"><img src="assets/grill.jpg" class="h-40 w-full object-cover" alt="Brochettes" onerror="this.src='https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&w=900&q=80'"><div class="p-4"><p class="text-xs text-teal-700">Grill</p><h3 class="font-semibold" data-en="Grilled brochettes" data-fr="Brochettes grillées">Brochettes grillées</h3></div></article>
+<article class="bg-white rounded-2xl overflow-hidden shadow-sm"><img src="assets/rice.jpg" class="h-40 w-full object-cover" alt="Riz" onerror="this.src='https://images.unsplash.com/photo-1516684669134-de6f7c473a2a?auto=format&fit=crop&w=900&q=80'"><div class="p-4"><p class="text-xs text-teal-700" data-en="Daily" data-fr="Du jour">Du jour</p><h3 class="font-semibold" data-en="Rice plates" data-fr="Plats de riz">Plats de riz</h3></div></article>
+<article class="bg-white rounded-2xl overflow-hidden shadow-sm"><img src="assets/plate.jpg" class="h-40 w-full object-cover" alt="Plat" onerror="this.src='https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?auto=format&fit=crop&w=900&q=80'"><div class="p-4"><p class="text-xs text-teal-700">Fast-food</p><h3 class="font-semibold" data-en="Fast plates" data-fr="Plats rapides">Plats rapides</h3></div></article>
+<article class="bg-white rounded-2xl overflow-hidden shadow-sm"><img src="assets/juice.jpg" class="h-40 w-full object-cover" alt="Boissons" onerror="this.src='https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=900&q=80'"><div class="p-4"><p class="text-xs text-teal-700" data-en="Drinks" data-fr="Boissons">Boissons</p><h3 class="font-semibold" data-en="Fresh drinks" data-fr="Boissons fraîches">Boissons fraîches</h3></div></article>
+</div></section>
+<section id="gallery" class="bg-white py-14"><div class="max-w-6xl mx-auto px-4"><h2 class="text-3xl font-semibold">Ambiance</h2><div class="mt-6 grid grid-cols-2 md:grid-cols-4 gap-3"><img class="h-44 w-full object-cover rounded-2xl" src="assets/hero.jpg" alt="" onerror="this.src='https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=80'"><img class="h-44 w-full object-cover rounded-2xl" src="assets/grill.jpg" alt="" onerror="this.src='https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&w=800&q=80'"><img class="h-44 w-full object-cover rounded-2xl" src="assets/ambiance.jpg" alt="" onerror="this.src='https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80'"><img class="h-44 w-full object-cover rounded-2xl" src="assets/rice.jpg" alt="" onerror="this.src='https://images.unsplash.com/photo-1516684669134-de6f7c473a2a?auto=format&fit=crop&w=800&q=80'"></div></div></section>
+<section class="max-w-6xl mx-auto px-4 py-14 grid md:grid-cols-2 gap-8"><div><h2 class="text-3xl font-semibold" data-en="A page that works on a phone" data-fr="Une page qui marche sur téléphone">Une page qui marche sur téléphone</h2><p class="mt-3 text-slate-600" data-en="Al-Falah Marketing builds mobile-first pages for shops in Guinea, Sierra Leone, and Maryland. Past pages for Acile Coffee and Shawarma Sam made menus clearer and WhatsApp orders faster." data-fr="Al-Falah Marketing conçoit des pages mobile-first pour boutiques en Guinée, Sierra Leone et Maryland. Pages précédentes : Acile Coffee et Shawarma Sam.">Al-Falah Marketing conçoit des pages mobile-first pour boutiques en Guinée, Sierra Leone et Maryland. Pages précédentes : Acile Coffee et Shawarma Sam.</p></div><div class="rounded-2xl bg-slate-900 text-white p-6"><p class="text-amber-200 text-sm">À partir de</p><ul class="mt-3 text-sm space-y-1"><li>Coyah — 1 500 000 GNF</li><li>Freetown — Le 2,500</li><li>Laurel — $499</li></ul><p class="mt-3 text-xs text-slate-300">Maquette seulement. Prix final après vos photos.</p></div></section>
+<section id="contact" class="bg-white border-t"><div class="max-w-6xl mx-auto px-4 py-14 grid md:grid-cols-2 gap-8"><div><h2 class="text-3xl font-semibold" data-en="Visit or message" data-fr="Passer ou écrire">Passer ou écrire</h2><p>Gomboyah Mosquée, Coyah</p><p><a class="text-teal-700" href="tel:+224623999800">+224 623 99 98 00</a></p><p class="text-sm text-slate-500">08:00–00:00</p></div><form onsubmit="sendLead(event)" class="space-y-3"><input id="name" required class="w-full rounded-xl border px-4 py-3" placeholder="Nom"><textarea id="note" class="w-full rounded-xl border px-4 py-3" rows="3" placeholder="Message"></textarea><button class="w-full rounded-xl bg-teal-700 text-white py-3">WhatsApp</button></form></div></section>
+<footer class="bg-slate-950 text-slate-300 text-sm"><div class="max-w-6xl mx-auto px-4 py-10 grid sm:grid-cols-2 gap-6"><div><p class="text-white">Salima Fast Food</p><p>Gomboyah Mosquée, Coyah</p><p>+224 623 99 98 00</p></div><div><p class="text-white">Al-Falah Marketing</p><p>8468 Winding Trail, Laurel, MD 20724</p><p>+1 240 280 6137 · +224 611 351 302</p><p>info@al-falahmarketing.com</p><p><a class="underline" href="https://al-falahmarketing.com">al-falahmarketing.com</a></p><p class="mt-2 text-xs">Mockup for review only. Privacy: we only use details you send to reply. No obligation.</p></div></div></footer>
+<div class="fixed bottom-0 inset-x-0 bg-white border-t p-2 flex gap-2 md:hidden"><a class="flex-1 text-center rounded-xl border py-3 text-sm" href="tel:+224623999800">Call</a><a class="flex-1 text-center rounded-xl bg-teal-700 text-white py-3 text-sm" href="https://wa.me/224623999800?text=Bonjour%20Salima%20Fast%20Food%2C%20je%20souhaite%20le%20menu%20du%20jour.">WhatsApp</a><a class="flex-1 text-center rounded-xl bg-slate-900 text-white py-3 text-sm" href="#menu">Menu</a></div>
+<script>
+let lang='fr';
+function apply(){document.querySelectorAll('[data-en]').forEach(el=>{el.textContent=lang==='fr'?el.dataset.fr:el.dataset.en});document.getElementById('lang').textContent=lang==='fr'?'EN':'FR';document.documentElement.lang=lang;}
+function toggleLang(){lang=lang==='fr'?'en':'fr';apply();}
+function sendLead(e){e.preventDefault();const t=encodeURIComponent('Bonjour, je suis '+document.getElementById('name').value+'. '+document.getElementById('note').value);location.href='https://wa.me/224623999800?text='+t;}
+apply();
+</script>
+</body></html>
